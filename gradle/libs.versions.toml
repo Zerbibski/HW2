@@ -1,5 +1,5 @@
 [versions]
-agp = "8.3.2"
+agp = "8.5.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -10,10 +10,12 @@ constraintlayout = "2.1.4"
 googleServices = "4.4.2"
 firebaseAnalytics = "22.0.1"
 firebaseCrashlytics = "19.0.1"
-gradle = "8.1.0"
+gradle = "8.5.0"
 firebaseCrashlyticsGradle = "3.0.1"
 firebaseFirestore = "25.0.0"
 firebaseStorage = "21.0.0"
+googleGmsGoogleServices = "4.4.2"
+googleFirebaseCrashlytics = "3.0.2"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -33,4 +35,6 @@ firebase-storage = { group = "com.google.firebase", name = "firebase-storage", v
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+googleGmsGoogleServices = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+googleFirebaseCrashlytics = { id = "com.google.firebase.crashlytics", version.ref = "googleFirebaseCrashlytics" }
 
